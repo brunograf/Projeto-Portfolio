@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @media (min-width: 768px) {
-    div.skill-conteiner{
+    div#skill-conteiner{
         grid-template-columns: 1fr 1fr;
     }
 }
