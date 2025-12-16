@@ -32,6 +32,9 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 nav ul {
@@ -242,11 +245,11 @@ footer {
 }
 
 footer a {
-    color: var(--texto-inverso);
-    font-weight: bold;
-    text-decoration: none;
+  color: var(--texto-inverso);
+  font-weight: bold;
+  text-decoration: none;
 }
 
 footer a:hover {
-    color: var(--destaque-inverso);
+  color: var(--destaque-inverso);
 }
