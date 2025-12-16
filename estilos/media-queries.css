@@ -4,4 +4,19 @@
     div#skill-conteiner{
         grid-template-columns: 1fr 1fr;
     }
+
+    div#projeto-conteiner div.projeto {
+        flex-flow: row-reverse nowrap;
+        justify-content: space-between;
+    }
+
+    div#projeto-conteiner div.projeto-info {
+        width: 80%;
+    }
+
+    div#projeto-conteiner img.foto {
+        aspect-ratio: 1/1;
+        width: 20%;
+        max-height: 200px;
+    }
 }
